@@ -1,6 +1,11 @@
+body {
+  background-color: #0a0e17;
+}
+
+
 /*navbar*/
 .navbar {
-  background-color: #ffe9f3;       
+  background-color: #0d1b2a;       
   padding: 15px 25px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   position: sticky;
@@ -19,7 +24,7 @@
 .nav-logo {
   font-size: 1.6rem;
   font-weight: bold;
-  color: #d66ba0;
+  color: #e2aaf7;
   margin: 0;
   font-family: 'Phudu', sans-serif;
 }
@@ -37,28 +42,29 @@
   font-size: 1.1rem;
   padding: 8px 14px;
   border-radius: 12px;
-  color: #a75d9e;
+  color: #e2aaf7;
+  background:  #3b1e54;
   transition: 0.25s ease;
   font-family: 'Phudu', sans-serif;
 }
 
 .nav-links a:hover {
-  background-color: #ffd7ec;
-  color: #8b4f80;
+  background-color: #5c2d91;
+  color: #ffffff;
 }
 
 .router-link-active {
-  background-color: #ffbde0;
-  color: #fff;
+  background-color: #e2aaf7;
+  color: #3b1e54;
 }
 
 /*footer*/
 .footer {
-  background-color: #ffe9f3;
+  background-color: #0d1b2a;
   margin-top: 60px;
   padding: 25px 20px;
   text-align: center;
-  border-top: 2px solid #ffd8e7;
+  border-top: 2px solid #5c2d91;
 }
 
 .footer-content {
@@ -68,31 +74,31 @@
 
 .footer-text {
   font-family: 'Phudu', cursive;
-  color: #d66ba0;
+  color: #e2aaf7;
   font-size: 1.3rem;
   margin-bottom: 12px;
 }
 
 .footer-email {
-  color: #a75d9e;
+  color: #3b1e54;
   text-decoration: none;
   font-size: 1.1rem;
   border-radius: 10px;
   padding: 8px 12px;
-  background: #ffd7ec;
+  background: #e2aaf7;
   transition: 0.2s ease;
   display: inline-block;
   margin-bottom: 12px;
 }
 
 .footer-email:hover {
-  background: #ffbde0;
+  background: #e2aaf7;
   color: #fff;
 }
 
 .footer-note {
   margin-top: 10px;
-  color: #a75d9e;
+  color: #e2aaf7;
   font-size: 0.9rem;
 }
 
@@ -106,7 +112,7 @@
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(180deg, #ffe9f3, #fff);
+  background: linear-gradient(180deg, #1b2536, #3b1e54);  
   border-radius: 20px;
   max-width: 900px;
   margin: auto;
@@ -115,13 +121,13 @@
 
 .hero-title {
   font-size: 3rem;
-  color: #d66ba0;
+  color: #e2aaf7;
   margin-bottom: 10px;
 }
 
 .hero-subtitle {
   font-size: 1.2rem;
-  color: #7a556c;
+  color: #bfa8ce;
   max-width: 650px;
   margin: auto;
   margin-bottom: 25px;
@@ -130,7 +136,7 @@
 
 .section-title {
   font-size: 1.9rem;
-  color: #d66ba0;
+  color: #e2aaf7;
   margin: 40px 0 20px;
 }
 
@@ -142,12 +148,13 @@
 }
 
 .recipe-card {
-  background-color: #fff7fc;
+  background: #1b263b;
   padding: 15px;
   width: 230px;
   border-radius: 18px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   transition: 0.2s ease;
+  color: #e2aaf7;
 }
 
 .recipe-card:hover {
@@ -164,7 +171,7 @@
 }
 
 .random-btn {
-  background-color: #d66ba0;
+  background-color: #19112b;
   color: white;
   border: none;
   padding: 12px 28px;
@@ -176,12 +183,12 @@
 }
 
 .random-btn:hover {
-  background-color: #c55a90;
+  background-color: #3b1e54;
   transform: translateY(-3px);
 }
 
 .random-result {
   margin-top: 18px;
   font-size: 1.2rem;
-  color: #a64d7c;
+  color: #e2aaf7;
 }
