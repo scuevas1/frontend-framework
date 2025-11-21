@@ -68,11 +68,9 @@ export default {
     ],
 
     tips: [
-      "Always preheat your pan — temperature matters!",
       "Season as you go, not just at the end.",
       "Let meat rest before slicing for juicier results.",
-      "Taste your food while cooking — adjust as needed.",
-      "Fresh herbs should be added at the end, not the beginning.",
+      "Taste your food while cooking and adjust as needed.",
       "Use room-temperature eggs for better baking results."
     ]
   }
