@@ -2,12 +2,16 @@
   <div class="home-container">
 
     <section class="hero">
-      <h1 class="hero-title">Welcome to Suey’s Cookbook</h1>
-      <p class="hero-subtitle">A cute collection of homemade recipes made with love.</p>
+      <h1 class="hero-title">Suey’s Cookbook</h1>
+      <p class="hero-subtitle"> A cute collection of homemade recipes made with love </p>
 
-      <button class="random-btn" @click="showRandomRecipe"> Show Random Recipe </button>
+      <button class="random-btn" @click="showRandomRecipe">
+        Discover a Recipe
+      </button>
 
-      <p v-if="randomRecipe" class="random-result">You should try: <strong>{{ randomRecipe }}</strong></p>
+      <p v-if="randomRecipe" class="random-result">
+        Try cooking: <strong>{{ randomRecipe }}</strong>
+      </p>
     </section>
 
     <section class="featured">
@@ -52,7 +56,7 @@ export default {
         "Banana Bread",
         "Lava Cake"
       ]
-    };
+    }
   },
 
   methods: {
@@ -61,5 +65,5 @@ export default {
       this.randomRecipe = this.recipes[index];
     }
   }
-};
+}
 </script>
