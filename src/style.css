@@ -1,9 +1,6 @@
-/* ---------------------- */
-/* NAVBAR (Cute Pastel)   */
-/* ---------------------- */
-
+/*navbar*/
 .navbar {
-  background-color: #ffe9f3;        /* soft pink */
+  background-color: #ffe9f3;       
   padding: 15px 25px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   position: sticky;
@@ -55,11 +52,7 @@
   color: #fff;
 }
 
-
-/* ---------------------- */
-/* FOOTER (Cute Pastel)   */
-/* ---------------------- */
-
+/*footer*/
 .footer {
   background-color: #ffe9f3;
   margin-top: 60px;
@@ -101,4 +94,15 @@
   margin-top: 10px;
   color: #a75d9e;
   font-size: 0.9rem;
+}
+
+/*homepage*/
+/* ---------------------- */
+/* HOME PAGE STYLES       */
+/* ---------------------- */
+
+.home-container {
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Phudu', sans-serif;
 }
