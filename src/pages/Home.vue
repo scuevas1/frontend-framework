@@ -11,22 +11,22 @@
 
       <div class="card-container">
         <div class="recipe-card">
-          <img src="" alt="Huevos con Chorizo" />
+          <img src="/images/chorizo.jpg" alt="Huevos con Chorizo" />
           <h3>Huevos con Chorizo</h3>
         </div>
 
         <div class="recipe-card">
-          <img src="" alt="Arepas con Queso" />
+          <img src="/images/arepas.jpg" alt="Arepas con Queso" />
           <h3>Arepas con Queso</h3>
         </div>
 
         <div class="recipe-card">
-          <img src="" alt="Banana Bread" />
+          <img src="/images/banana-bread.jpg" alt="Banana Bread" />
           <h3>Banana Bread</h3>
         </div>
 
         <div class="recipe-card">
-          <img src="" alt="Lava Cake" />
+          <img src="/images/lava-cake.jpg" alt="Lava Cake" />
           <h3>Lava Cake</h3>
         </div>
       </div>
