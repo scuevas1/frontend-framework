@@ -4,6 +4,10 @@
     <section class="hero">
       <h1 class="hero-title">Welcome to Suey’s Cookbook</h1>
       <p class="hero-subtitle">A cute collection of homemade recipes made with love.</p>
+
+      <button class="random-btn" @click="showRandomRecipe"> Show Random Recipe </button>
+
+      <p v-if="randomRecipe" class="random-result">You should try: <strong>{{ randomRecipe }}</strong></p>
     </section>
 
     <section class="featured">
@@ -34,3 +38,28 @@
 
   </div>
 </template>
+
+<script>
+export default {
+  name: "Home",
+
+  data() {
+    return {
+      randomRecipe: null,
+      recipes: [
+        "Huevos con Chorizo",
+        "Arepas con Queso",
+        "Banana Bread",
+        "Lava Cake"
+      ]
+    };
+  },
+
+  methods: {
+    showRandomRecipe() {
+      const index = Math.floor(Math.random() * this.recipes.length);
+      this.randomRecipe = this.recipes[index];
+    }
+  }
+};
+</script>
