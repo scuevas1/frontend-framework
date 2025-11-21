@@ -103,16 +103,29 @@
   font-family: 'Phudu', sans-serif;
 }
 
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, #ffe9f3, #fff);
+  border-radius: 20px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
 .hero-title {
-  font-size: 2.4rem;
+  font-size: 3rem;
   color: #d66ba0;
   margin-bottom: 10px;
 }
 
 .hero-subtitle {
   font-size: 1.2rem;
-  color: #6b3f64;
-  margin-bottom: 20px;
+  color: #7a556c;
+  max-width: 650px;
+  margin: auto;
+  margin-bottom: 25px;
+  line-height: 1.5;
 }
 
 .section-title {
@@ -148,4 +161,27 @@
   border-radius: 12px;
   margin-bottom: 10px;
   display: block;
+}
+
+.random-btn {
+  background-color: #d66ba0;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.random-btn:hover {
+  background-color: #c55a90;
+  transform: translateY(-3px);
+}
+
+.random-result {
+  margin-top: 18px;
+  font-size: 1.2rem;
+  color: #a64d7c;
 }
