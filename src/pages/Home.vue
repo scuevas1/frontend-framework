@@ -1,18 +1,26 @@
 <template>
   <div class="home-container">
 
-    <section class="hero">
-      <h1 class="hero-title">Suey’s Cookbook</h1>
-      <p class="hero-subtitle"> A cute collection of homemade recipes made with love </p>
+    <section class="hero-section">
+        <h1 class="hero-title">Suey’s Cookbook</h1>
+        <p class="hero-subtitle">A curated collection of homemade recipes made with love</p>
 
-      <button class="random-btn" @click="showRandomRecipe">
-        Discover a Recipe
-      </button>
+        <div class="hero-buttons">
+            <button class="hero-btn" @click="showRandomRecipe">Discover a Recipe</button>
 
-      <p v-if="randomRecipe" class="random-result">
-        Try cooking: <strong>{{ randomRecipe }}</strong>
-      </p>
+            <button class="hero-btn outline" @click="showCookingTip">Cooking Tip</button>
+        </div>
+
+        <p v-if="randomRecipe" class="hero-result">
+            Try cooking: <strong>{{ randomRecipe }}</strong>
+        </p>
+
+        <p v-if="cookingTip" class="hero-tip">
+            Tip: {{ cookingTip }}
+        </p>
+
     </section>
+
 
     <section class="featured">
       <h2 class="section-title">Featured Recipes</h2>
@@ -48,22 +56,39 @@ export default {
   name: "Home",
 
   data() {
-    return {
-      randomRecipe: null,
-      recipes: [
-        "Huevos con Chorizo",
-        "Arepas con Queso",
-        "Banana Bread",
-        "Lava Cake"
-      ]
-    }
+  return {
+    randomRecipe: null,
+    cookingTip: null,
+
+    recipes: [
+      "Huevos con Chorizo",
+      "Arepas con Queso",
+      "Banana Bread",
+      "Lava Cake"
+    ],
+
+    tips: [
+      "Always preheat your pan — temperature matters!",
+      "Season as you go, not just at the end.",
+      "Let meat rest before slicing for juicier results.",
+      "Taste your food while cooking — adjust as needed.",
+      "Fresh herbs should be added at the end, not the beginning.",
+      "Use room-temperature eggs for better baking results."
+    ]
+  }
+},
+
+methods: {
+  showRandomRecipe() {
+    const index = Math.floor(Math.random() * this.recipes.length);
+    this.randomRecipe = this.recipes[index];
   },
 
-  methods: {
-    showRandomRecipe() {
-      const index = Math.floor(Math.random() * this.recipes.length);
-      this.randomRecipe = this.recipes[index];
-    }
+  showCookingTip() {
+    const index = Math.floor(Math.random() * this.tips.length);
+    this.cookingTip = this.tips[index];
   }
+}
+
 }
 </script>
