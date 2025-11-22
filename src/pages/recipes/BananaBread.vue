@@ -30,7 +30,6 @@
 
         <h2 class="section-heading">Instructions</h2>
         <ol class="instructions-list">
-          <li></li>
           <li>Preheat the oven to 350°F and butter a 8x4 inch loaf pan</li>
           <li>In a mixing bowl, mash the ripe bananas with a fork until completely smooth</li>
           <li>Then stir the melted butter into the mashed bananas</li>

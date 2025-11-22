@@ -29,7 +29,6 @@
 
         <h2 class="section-heading">Instructions</h2>
         <ol class="instructions-list">
-          <li></li>
           <li>Combine arepa flour, warm water, salt, butter, and mozzarella cheese</li>
           <li>Once combined, knead the dough with your hands for about 4 minutes while moistening your hands with water</li>
           <li>Form small balls with the dough, then flatten each ball with your hands</li>

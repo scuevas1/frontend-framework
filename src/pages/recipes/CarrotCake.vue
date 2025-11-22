@@ -36,7 +36,6 @@
 
         <h2 class="section-heading">Instructions</h2>
         <ol class="instructions-list">
-          <li></li>
           <li>Preheat oven to 350°F (180°C). Grease two 9-inch round pans</li>
           <li>In a mixing bowl, mix flour, baking soda, salt, and cinnamon</li>
           <li>Then mix in oil, sugar, brown sugar, vanilla, and eggs</li>

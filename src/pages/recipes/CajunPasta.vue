@@ -21,7 +21,6 @@
           <li>8 oz penne pasta</li>
           <li>2 tbsp of cajun seasoning</li>
           <li>1/2 tsp salt</li>
-          <li>1/2 tsp pepper</li>
           <li>1 lb raw jumpo shrimp</li>
           <li>3 tbsp unsalted butter</li>
           <li>7 ounces andouille sausage</li>
@@ -31,14 +30,12 @@
           <li>3 cups water</li>
           <li>3/1 tsp paprika</li>
           <li>1 tbsp oregano</li>
-          <li></li>
           <li>1/4 tsp onion powder</li>
           <li>1 can roasted corn</li>
         </ul>
 
         <h2 class="section-heading">Instructions</h2>
         <ol class="instructions-list">
-          <li></li>
           <li>Peel and devein 1 pound raw jumbo shrimp if needed, then pat dry with papertowl</li>
           <li>On a pan melt 2 tbsp of butter and cook the shrimp then transfer to a plate</li>
           <li>Cook penne pasta according to package directions, drain and set aside</li>

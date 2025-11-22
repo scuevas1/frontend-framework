@@ -31,7 +31,6 @@
 
         <h2 class="section-heading">Instructions</h2>
         <ol class="instructions-list">
-          <li></li>
           <li>Preheat the oven to 450°F and butter/lightly flour 6 custard cups</li>
           <li>Microwave the butter and bittersweet chocolate in a large bowl on high until the butter is melted</li>
           <li>Whisk the chocolate and butter and stir in the sugar until nicely mixed</li>
