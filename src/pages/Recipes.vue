@@ -61,7 +61,7 @@ export default {
           slug: "banana-bread",
           path: "/recipes/banana-bread",
           image: "/images/banana-bread.jpg",
-          meta: "70 min · Dessert"
+          meta: "75 min · Dessert"
         },
         {
           title: "Carrot Cake",
