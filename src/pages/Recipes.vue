@@ -2,8 +2,8 @@
   <div class="recipes-magazine">
 
     <section class="recipes-header">
-      <h1 class="mag-title">Explore the Cookbook</h1>
-      <p class="mag-subtitle">A curated visual spread of homemade favorites.</p>
+      <h1 class="mag-title">Explore My Cookbook</h1>
+      <p class="mag-subtitle">A yummy lineup of my easy and favorite homemade recipes.</p>
     </section>
 
     <section class="masonry-grid">
@@ -50,18 +50,18 @@ export default {
           meta: "22 min · Snack"
         },
         {
+          title: "Cajun Pasta",
+          slug: "cajun-pasta",
+          path: "/recipes/cajun-pasta",
+          image: "/images/cajun-pasta.jpg",
+          meta: "35 min · Dinner"
+        },
+        {
           title: "Banana Bread",
           slug: "banana-bread",
           path: "/recipes/banana-bread",
           image: "/images/banana-bread.jpg",
           meta: "70 min · Dessert"
-        },
-        {
-          title: "Cajun Pasta",
-          slug: "cajun-pasta",
-          path: "/recipes/cajun-pasta",
-          image: "/images/cajun-pasta.jpg",
-          meta: "30 min · Dessert"
         },
         {
           title: "Carrot Cake",

@@ -8,6 +8,8 @@ import HuevosConChorizo from '../pages/recipes/HuevosConChorizo.vue'
 import ArepasConQueso from '../pages/recipes/ArepasConQueso.vue'
 import BananaBread from '../pages/recipes/BananaBread.vue'
 import LavaCake from '../pages/recipes/LavaCake.vue'
+import CarrotCake from '../pages/recipes/CarrotCake.vue'
+import CajunPasta from '../pages/recipes/CajunPasta.vue'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },

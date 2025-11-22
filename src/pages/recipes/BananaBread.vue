@@ -1,12 +1,12 @@
 <template>
-  <div class="about-container">
-    <h1 class="page-title">About This Cookbook</h1>
-    <p class="page-subtitle">Learn more about the inspiration behind this project.</p>
+  <div class="recipe-detail">
+    <h1>Banana Bread</h1>
+    <p>This is a placeholder recipe page.</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "About"
+  name: "BananaBread"
 }
 </script>

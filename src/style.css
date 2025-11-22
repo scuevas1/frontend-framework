@@ -254,3 +254,103 @@ body {
   font-size: 1.3rem;
   margin-top: 5px;
 }
+
+
+/*recipe main page*/
+.recipes-magazine {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.mag-title {
+  text-align: center;
+  font-size: 2.6rem;
+  color: #d8c9ff;
+  margin-bottom: 8px;
+}
+
+.mag-subtitle {
+  text-align: center;
+  font-size: 1.15rem;
+  color: #bfc7d9;
+  margin-bottom: 35px;
+}
+
+.masonry-grid {
+  column-count: 3;
+  column-gap: 18px;
+}
+
+@media (max-width: 900px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .masonry-grid {
+    column-count: 1;
+  }
+}
+
+.masonry-item {
+  display: block;
+  margin-bottom: 18px;
+  break-inside: avoid-column;
+  text-decoration: none;
+}
+
+.masonry-card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #1b2536;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.55);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  opacity: 0;
+  animation: fadeInMasonry 0.8s forwards;
+}
+
+.masonry-item:nth-child(1) .masonry-card { animation-delay: 0.1s; }
+.masonry-item:nth-child(2) .masonry-card { animation-delay: 0.25s; }
+.masonry-item:nth-child(3) .masonry-card { animation-delay: 0.4s; }
+.masonry-item:nth-child(4) .masonry-card { animation-delay: 0.55s; }
+
+@keyframes fadeInMasonry {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.masonry-card img {
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.masonry-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to top, rgba(0,0,0,0.65), transparent);
+  color: #e8d9ff;
+}
+
+.masonry-overlay h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.masonry-overlay p {
+  margin: 3px 0 0;
+  font-size: 0.9rem;
+  color: #c9c9d9;
+}
+
+.masonry-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(143, 91, 255, 0.35);
+}
