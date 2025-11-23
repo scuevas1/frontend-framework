@@ -1,6 +1,9 @@
 <template>
   <div class="recipe-detail">
 
+    <router-link to="/recipes" class="back-button">
+      ←  Back to Recipes
+    </router-link>
     <div class="recipe-content">
 
       <div class="recipe-image">

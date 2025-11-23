@@ -18,28 +18,32 @@
         <p v-if="cookingTip" class="hero-tip">
             Tip: {{ cookingTip }}
         </p>
-
     </section>
-
 
     <section class="featured">
       <h2 class="section-title">Featured Recipes</h2>
 
       <div class="card-container">
-        <div class="recipe-card">
-          <img src="/images/chorizo.jpg" alt="Huevos con Chorizo" />
-          <h3>Huevos con Chorizo</h3>
-        </div>
+        <router-link to="/recipes/huevos-con-chorizo" class="featured-link">
+          <div class="recipe-card">
+            <img src="/images/chorizo.jpg" alt="Huevos con Chorizo" />
+            <h3>Huevos con Chorizo</h3>
+          </div>
+        </router-link>
 
-        <div class="recipe-card">
-          <img src="/images/arepas.jpg" alt="Arepas con Queso" />
-          <h3>Arepas con Queso</h3>
-        </div>
+        <router-link to="/recipes/arepas-con-queso" class="featured-link">
+          <div class="recipe-card">
+            <img src="/images/arepas.jpg" alt="Arepas con Queso" />
+            <h3>Arepas con Queso</h3>
+          </div>
+        </router-link>
 
-        <div class="recipe-card">
-          <img src="/images/banana-bread.jpg" alt="Banana Bread" />
-          <h3>Banana Bread</h3>
-        </div>
+        <router-link to="/recipes/banana-bread" class="featured-link">
+          <div class="recipe-card">
+            <img src="/images/banana-bread.jpg" alt="Banana Bread" />
+            <h3>Banana Bread</h3>
+          </div>
+        </router-link>
       </div>
     </section>
 

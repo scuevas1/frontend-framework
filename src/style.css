@@ -27,6 +27,14 @@ body {
   color: #e2aaf7;
   margin: 0;
   font-family: 'Phudu', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-logo.router-link-active {
+  background: none !important;
+  color: #e2aaf7 !important;
+  padding: 0;
 }
 
 .nav-links {
@@ -255,6 +263,10 @@ body {
   margin-top: 5px;
 }
 
+.featured-link {
+  text-decoration: none;
+  display: block;
+}
 
 /*recipe main page*/
 .recipes-magazine {
@@ -477,4 +489,23 @@ body {
   .about-image img {
     width: 100%;
   }
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #e2aaf7;
+  background: #3b1e54;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.25s ease;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+}
+
+.back-button:hover {
+  background: #5c2d91;
+  color: white;
+  transform: translateY(-2px);
 }

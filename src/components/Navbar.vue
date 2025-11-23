@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div class="nav-content">
-      <h1 class="nav-logo">Suey’s Cookbook</h1>
+      <router-link to="/" class="nav-logo">Suey's Cookbook</router-link>
 
       <ul class="nav-links">
         <li><router-link to="/">Home</router-link></li>
