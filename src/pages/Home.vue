@@ -40,11 +40,6 @@
           <img src="/images/banana-bread.jpg" alt="Banana Bread" />
           <h3>Banana Bread</h3>
         </div>
-
-        <div class="recipe-card">
-          <img src="/images/lava-cake.jpg" alt="Lava Cake" />
-          <h3>Lava Cake</h3>
-        </div>
       </div>
     </section>
 
@@ -64,6 +59,8 @@ export default {
       "Huevos con Chorizo",
       "Arepas con Queso",
       "Banana Bread",
+      "Carrot Cake",
+      "Cajun Pasta",
       "Lava Cake"
     ],
 

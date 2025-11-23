@@ -417,3 +417,64 @@ body {
     width: 100%;
   }
 }
+
+/*about me*/
+.about-page {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.about-card {
+  display: flex;
+  gap: 30px;
+  background: #1b2536;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.55);
+  animation: fadeInAbout 0.9s ease forwards;
+}
+
+@keyframes fadeInAbout {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.about-image img {
+  width: 350px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.45);
+}
+
+.about-text {
+  flex: 1;
+  color: #9c7dec;
+}
+
+.about-title {
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+  color: #b477ca;
+}
+
+.about-intro {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #c9d1d9;
+}
+
+.about-body {
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+  .about-card {
+    flex-direction: column;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+}
