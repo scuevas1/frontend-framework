@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Huevos con Chorizo",
+    "slug": "huevos-con-chorizo",
+    "path": "/recipes/huevos-con-chorizo",
+    "image": "/images/chorizo.jpg",
+    "meta": "10 min · Breakfast"
+  },
+  {
+    "title": "Arepas con Queso",
+    "slug": "arepas-con-queso",
+    "path": "/recipes/arepas-con-queso",
+    "image": "/images/arepas.jpg",
+    "meta": "22 min · Snack"
+  },
+  {
+    "title": "Cajun Pasta",
+    "slug": "cajun-pasta",
+    "path": "/recipes/cajun-pasta",
+    "image": "/images/cajun-pasta.jpg",
+    "meta": "35 min · Dinner"
+  },
+  {
+    "title": "Banana Bread",
+    "slug": "banana-bread",
+    "path": "/recipes/banana-bread",
+    "image": "/images/banana-bread.jpg",
+    "meta": "75 min · Dessert"
+  },
+  {
+    "title": "Carrot Cake",
+    "slug": "carrot-cake",
+    "path": "/recipes/carrot-cake",
+    "image": "/images/carrot-cake.jpg",
+    "meta": "65 min · Dessert"
+  },
+  {
+    "title": "Lava Cake",
+    "slug": "lava-cake",
+    "path": "/recipes/lava-cake",
+    "image": "/images/lava-cake.jpg",
+    "meta": "24 min · Dessert"
+  }
+]
