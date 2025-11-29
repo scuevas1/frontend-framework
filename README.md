@@ -1,5 +1,13 @@
-# Vue 3 + Vite
+Project Description: This website is called Suey's Cookbook and it is a recipe cookbook that I built using Vue.js. It has a home page, recipe pages with a Pinterest style layout, individual recipe pages for each dish, and an about page. My goal was to make somethng clean, modern and easy to use while learning a new frontend framework.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Setup Instructions:
+1. install Node.js
+2. Install Vue + Vite
+3. clone the repo
+4. open project folder so change directories (cd frontend-framework)
+5. install the dependencies (npm install)
+6. then start the development server (npm run dev) which will give the local URL
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+The framework that I used for this assignment was Vue.js
+
+Deployment URL: https://frontend-framework.netlify.app/ 
