@@ -51,43 +51,27 @@
 </template>
 
 <script>
+import { getRandom, recipes, tips } from '../scripts/home.js'
+
 export default {
   name: "Home",
 
   data() {
-  return {
-    randomRecipe: null,
-    cookingTip: null,
-
-    recipes: [
-      "Huevos con Chorizo",
-      "Arepas con Queso",
-      "Banana Bread",
-      "Carrot Cake",
-      "Cajun Pasta",
-      "Lava Cake"
-    ],
-
-    tips: [
-      "Season as you go, not just at the end.",
-      "Let meat rest before slicing for juicier results.",
-      "Taste your food while cooking and adjust as needed.",
-      "Use room-temperature eggs for better baking results."
-    ]
-  }
-},
-
-methods: {
-  showRandomRecipe() {
-    const index = Math.floor(Math.random() * this.recipes.length);
-    this.randomRecipe = this.recipes[index];
+    return {
+      randomRecipe: null,
+      cookingTip: null,
+      recipes,
+      tips
+    }
   },
 
-  showCookingTip() {
-    const index = Math.floor(Math.random() * this.tips.length);
-    this.cookingTip = this.tips[index];
+  methods: {
+    showRandomRecipe() {
+      this.randomRecipe = getRandom(this.recipes)
+    },
+    showCookingTip() {
+      this.cookingTip = getRandom(this.tips)
+    }
   }
-}
-
 }
 </script>
